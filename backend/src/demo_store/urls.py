@@ -16,8 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from rest_framework import routers
+
+from apps.storage.api.views import StorageAPIViewSet
+from apps.product.api.views import ProductAPIViewSet, ModelAPIViewSet
+
+router = routers.SimpleRouter()
+router.register('storage', StorageAPIViewSet)
+router.register('product', ProductAPIViewSet)
+router.register('model', ModelAPIViewSet)
+
 urlpatterns = [
-    path('api-auth/', include('rest_framework.urls')),
     path('admin/', admin.site.urls),
-    path('api/v1.0/', include('apps.storage.api.urls')),
+    path('api/v1.0/', include(router.urls)),
 ]
