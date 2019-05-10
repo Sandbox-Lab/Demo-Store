@@ -1,3 +1,3 @@
 # Demo Store
 
-This is a practical fullstack Demo
+This is a practical fullstack Demo CRUD
