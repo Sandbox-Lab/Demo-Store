@@ -1,6 +1,6 @@
 # gui
 
-> Demo Storage project
+> The Storage Demo GUI
 
 ## Build Setup
 
