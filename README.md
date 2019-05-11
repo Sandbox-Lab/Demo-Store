@@ -204,7 +204,7 @@ Bien, ya has levantado el backend. Es hora de levantar el frontend.
 
 ## Levantando el Fontend
 
-Estos es mucho más sencillos. Situados en el directorio `frontend/gui` ejecuta los siguientes comandos:
+Estos es mucho más sencillo. Situados en el directorio `frontend/gui` ejecuta los siguientes comandos:
 
 ```sh
 # Instala las dependecias
